@@ -1,3 +1,4 @@
+Library Management System
 Introduction
 The Library Management System is an essential tool for efficiently managing library operations.
 This project aims to create a robust database that keeps track of all critical information related to books,
@@ -9,6 +10,38 @@ The project is structured to create a database named library and design six inte
 Branch, Employee, Books, Customer, IssueStatus, and ReturnStatus. 
 Each table is carefully designed with primary and foreign key constraints to maintain data integrity and establish relationships between entities.
 The project also includes SQL queries to extract valuable insights and perform essential operations, such as retrieving book details, tracking employee information, and analyzing customer activity.
+Features
+Maintain records of branches, employees, books, and customers.
+Track the status of issued and returned books.
+Generate useful reports, such as available books, employee salaries, and customer activities.
+Ensure data integrity through primary and foreign key relationships.
+Technologies Used
+Database Management System: MySQL
+Languages: SQL for database queries
+Version Control: Git and GitHub
+Database Schema
+Tables Created:
+Branch: Manages branch details.
+Employee: Stores employee information.
+Books: Contains book details.
+Customer: Tracks customer data.
+IssueStatus: Records issued books.
+ReturnStatus: Tracks returned books.
+SQL Queries
+Here are the key queries included in this project:
+
+Retrieve the book title, category, and rental price of all available books.
+List employee names and their respective salaries in descending order.
+Retrieve book titles and the corresponding customers who issued them.
+Display the total count of books in each category.
+Fetch employee names and their positions for salaries above ₹50,000.
+List customers who registered before 2022-01-01 and have not issued books.
+Display branch numbers and the total count of employees per branch.
+Identify customers who issued books in June 2023.
+Retrieve books with titles containing "history."
+Fetch branch numbers with more than five employees.
+List employees managing branches with their branch addresses.
+Display customers who issued books with a rental price above ₹25.
 
 This project combines concepts of database management, relational database design, and SQL querying to provide a comprehensive solution for managing a library system.
 Structure
